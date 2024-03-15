@@ -2,6 +2,7 @@ package net.raum.firstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.raum.firstmod.block.ModBlocks;
 import net.raum.firstmod.item.ModItemGroups;
 import net.raum.firstmod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,7 +15,9 @@ public class FirstMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-		LOGGER.info("Hello Fabric world!");
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }
