@@ -1,3 +1,9 @@
 {
-  "item.firstmod.testitem": "Test Item"
+  "item.firstmod.testitem": "Test Item",
+  "item.firstmod.date": "Date",
+
+  "block.firstmod.palm_stem": "Palm Stem",
+  "block.firstmod.testblock": "Test Block",
+
+  "itemgroup.moddedgroup": "Modded group!"
 }
